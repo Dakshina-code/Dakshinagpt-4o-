@@ -31,3 +31,11 @@ If your Jupyter notebooks are not in source control, they will be more difficult
 If you need to migrate in a way that preserves use of the module-level client instead of instantiated clients, you can use the openai_global grit migration instead.
 
 Initialization
+
+What's changed
+Auto-retry with backoff if there's an error
+Proper types (for mypy/pyright/editors)
+You can now instantiate a client, instead of using a global default.
+Switch to explicit client instantiation
+Weights and Biases CLI will now be included in their own package
+Migration guide
